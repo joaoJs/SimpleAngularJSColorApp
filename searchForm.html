@@ -1,0 +1,6 @@
+{{countdown}}
+<form name="colorSearch" ng-submit="search(rgb)">
+  <input type="search" required placeholder="add rgb" ng-model="rgb" />
+  <input type="submit" value="search"  />
+</form>
+<p style="color:red;" ng-hide="!rgb">{{errorMessage}}</p>

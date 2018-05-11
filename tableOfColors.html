@@ -1,0 +1,17 @@
+<table>
+    <thead>
+      <tr>
+        <th>Color Name</th>
+        <th>Color Image</th>
+        <th>Hex Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="color in colors | orderBy:'name'">
+        <td>{{color.name}}</td>
+        <td><img ng-src="{{color.image}}" /></td>
+        <td>{{color.hex}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <a href="#/main">Back to Search</a>
