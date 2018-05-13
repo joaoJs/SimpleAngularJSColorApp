@@ -1,2 +1,18 @@
-/* Styles go here */
+.form-group {
+  padding: 30px;
+  width: 50%;
+  display: inline-block;
+}
 
+.form-container {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px 0;
+}
+
+.table-container {
+  text-align: center;
+}
